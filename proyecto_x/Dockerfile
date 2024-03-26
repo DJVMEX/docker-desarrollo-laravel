@@ -15,7 +15,8 @@ RUN apt-get update && apt-get install -y \
     libpng-dev \
     libjpeg-dev \
     libfreetype6-dev \
-    git
+    git \
+    nano
 
 # Configuramos e instalamos la extensión gd
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg && \
