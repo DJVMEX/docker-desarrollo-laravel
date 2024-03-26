@@ -5,6 +5,11 @@ Este es mi primer Docker creado específicamente para facilitar el desarrollo de
 ## Instalación
 Para utilizar esta imagen Docker, sigue los siguientes pasos:
 
+!IMPORTANTE EL ARCHIVO Dockerfile va sin extension. (mv Dockerfile.txt Dockerfile) y darle
+Tambien verificar el tema de permisos y si no funciona cambiar el usuario y grupo
+sudo chown www-data:www-data /Users/diego/Documents/proyecto_x/public_html/index.php
+
+
 ## 1. Clonar el repositorio:
 Crea una carpeta para tu proyecto (por ejemplo, /Users/diego/Documents/proyecto_x/) y clona este repositorio en esa carpeta.
 
